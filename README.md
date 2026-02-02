@@ -23,6 +23,7 @@ This repository contains the official implementation of our paper exploring Para
 | Method | Target Modules | Rank | Trainable Params | Training Time | Test Accuracy |
 |--------|---------------|------|------------------|---------------|---------------|
 | ResNet-18 (scratch) | — | — | 11.2M (100%) | 16h 45m | 72.87% |
+| ViT-Small (scratch) | — | — | 21.7M (100%) | 18h 39m | 61.91% |
 | DINOv3 (frozen) | — | — | 4.7M (0.07%) | 17h 27m | 76.56% |
 | QLoRA | q_proj | 8 | 2.6M (0.04%) | 6h 32m | 77.17% |
 | QLoRA | q_proj | 16 | 5.2M (0.08%) | 7h 16m | 78.38% |
@@ -61,7 +62,7 @@ PEFT-Fine-tuning-cows/
 ### Baseline Approaches
 | Notebook | Description |
 |----------|-------------|
-| [TrainFromScatch_Preprocesing Pipeline Val = 1](notebooks/TrainFromScatch_Preprocesing%20Pipeline%20Val%20=%201.ipynb) | Training ResNet-18 from scratch with data preprocessing pipeline |
+| [TrainFromScatch_Preprocesing Pipeline Val = 1](notebooks/TrainFromScatch_Preprocesing%20Pipeline%20Val%20=%201.ipynb) | Training ResNet-18/Vit-Small from scratch with data preprocessing pipeline |
 | [UsingPretrainedModel_DinoV3 Embeddings Val = 1](notebooks/UsingPretrainedModel_DinoV3%20Embeddings%20Val%20=%201.ipynb) | Frozen DINOv3 feature extraction with classification head |
 
 ### QLoRA Experiments
