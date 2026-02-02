@@ -183,7 +183,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Haiyu Yang ** - Cornell University
 
 ---
-
-<p align="center">
-  <i>Developed at Cornell University PRO-Dairy Lab</i>
-</p>
