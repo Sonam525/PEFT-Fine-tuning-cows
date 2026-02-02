@@ -9,7 +9,7 @@
 
 This repository contains the official implementation of our paper exploring Parameter-Efficient Fine-Tuning (PEFT) methods for adapting billion-parameter vision models to livestock behavior classification.
 
-![Infographic](./assets/infographics.png)
+![Infographic](./assets/Infographics.png)
 
 ## 🎯 Key Findings
 
