@@ -1,0 +1,30 @@
+name: cow-behavior-analysis
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pillow
+  - scipy
+  - pip:
+      - torch==2.3.1
+      - torchvision
+      - timm==0.9.12
+      - transformers==4.57.1
+      - accelerate==0.33.0
+      - peft==0.13.2
+      - bitsandbytes==0.48.0
+      - albumentations==1.3.1
+      - opencv-python-headless==4.8.1.78
+      - openpyxl==3.1.2
+      - mlflow
+      - tqdm
+      - huggingface_hub
